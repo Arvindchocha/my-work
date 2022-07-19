@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            height: 200px;
+            width: 200px;
+            background-color: skyblue;
+            transition: width 2s;
+        }
+        .one:hover{
+            width: 400px;
+        }
+        .two{
+            height: 200px;
+            width: 200px;
+            background-color: skyblue;
+            transition: height 2s;
+        }
+        .two:hover{
+            height: 400px;
+        }
+        .three{
+            height: 200px;
+            width: 200px;
+            background-color: skyblue;
+            transition: height 2s,width 2s , background-color 3s;
+        }
+        .three:hover{
+            height: 400px;
+            width: 400px;
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+    <br>
+    <div class="two"></div>
+    <br>
+    <div class="three"></div>
+</body>
+</html>

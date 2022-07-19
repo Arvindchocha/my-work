@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cil-1{width: 8.33%;}
+        .cil-2{width: 16.66%;}
+        .cil-3{width: 25%;}
+        .cil-4{width: 33.33%;}
+        .cil-5{width: 41.66%;}
+        .cil-6{width: 50%;}
+        .cil-7{width: 58.33%;}
+        .cil-8{width: 66.66%;}
+        .cil-9{width: 75%;}
+        .cil-10{width: 83.33%;}
+        .cil-11{width: 91.66%;}
+        .cil-12{width: 100%;}
+        .header{
+            background-color: aqua;
+            height: 150px;
+        }
+        .left{
+            background-color: blue;
+            height: 300px;
+            float: left;
+        }
+        .center{
+            background-color: blueviolet;
+            height: 300px;
+            float: left;
+        }
+        .footer{
+            background-color: aqua;
+            height: 150px;
+            float: left;
+        }
+        @media only screen and (min-width:600px) {
+            .left{width: 100%;}
+            .center{width: 100%;}
+        }
+        @media only screen and (min-width:1200px) {
+            .left{width: 25%;}
+            .center{width: 75%;}       
+        }
+    </style>
+</head>
+<body>
+    <div class="header col-12"></div>
+    <div class="left col-3"></div>
+    <div class="center col-9"></div>
+    <div class="footer col-12"></div>
+</body>
+</html>

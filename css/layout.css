@@ -1,0 +1,32 @@
+#main{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color:  rgb(190, 233, 233);
+}
+.left{
+    width: 20%;
+    height: 300px;
+    background-color: rgb(32, 32, 49);
+    float: left;
+}
+.center{
+    width: 60%;
+    height: 300px;
+    background-color: rgb(238, 157, 173);
+    float: left;
+}
+.right{
+    width: 20%;
+    height: 300px;
+    background-color:  rgb(32, 32, 49);
+    float: left;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(190, 233, 233);
+    float: left;
+}

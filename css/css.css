@@ -1,0 +1,119 @@
+.main{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.header img{
+    float: left;
+    margin: 15px;
+}
+ a{
+    text-decoration: none;
+    color: rgb(245, 244, 243);
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+
+}
+.header ul li a:hover{
+    background-color: skyblue;
+    color: black;
+    padding: 10px;
+}
+.header{
+    background-color: black;
+    width:100%;
+    overflow: hidden;
+}
+.header ul{
+    margin-left: 810px;
+    padding: 0;
+}
+.header ul li{
+    padding: 20px 15px;
+    /* margin-left: 50px; */
+    float: left;
+    margin: x;
+}
+.main-center{
+    width: 100%;
+}
+.left{
+    float:left;
+    background-color: black;
+    width: 30%;
+    padding-top: -5px;
+    /* padding-bottom: 20px; */
+    display: inline-block;
+    font-size: 25px;
+    height: 280px;
+    margin-top: -5px;
+}
+.left ul li{
+    padding: 10px;
+    font-size: 25px;
+    display: block;
+}
+.left ul li a:hover{
+    background-color: skyblue;
+    color: black;
+    padding: 10px;
+}
+.right{
+    width: 70%;
+    float: left;
+    /* padding:10px; */
+}
+.product{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.product button{
+    width: 100px;
+    background-color: black;
+    color: whitesmoke;
+    height: 40px;
+}
+.product button:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.footer{
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    float: left;
+}
+.footer button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.one{
+    background-color: black;
+    color: rgb(241, 244, 245);
+}
+.two{
+    background-color:rgb(241, 244, 245) ;
+    color: black;
+}
+.one:hover{
+    background-color: rgb(241, 244, 245);
+    color: black;
+}
+.two:hover{
+    background-color: black;
+    color: rgb(241, 244, 245);
+}
+.end{
+    width: 100%;
+    background-color: black;
+    color: rgb(241, 244, 245);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}

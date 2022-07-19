@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selector */
+        *{
+            font-style:italic ;
+        }
+        /* decedent selector */
+        ul.menu li a{
+            text-decoration: none;
+        }
+        /* child selector */
+        ul >li{
+            color:red;
+        }
+        /* adjacent sibling selector */
+        h1+p{
+            color: green;
+        }
+        /* general sibling selector */
+        h1~p{
+            background-color: aqua;
+        }
+        /* grouping selector */
+        h1,p,span{
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body>
+    <p>this is p tag</p>
+    <h1>this is h1 tag</h1>
+    <p>second p tag</p>
+    <p>therd p tag</p>
+    <span>this is span tag</span>
+    <ul class="menu">
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">servis</a></li>
+            <li><a href="">contect</a></li>
+        </ul>
+        <ul>
+                <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">servis</a></li>
+            <li><a href="">contect</a></li>
+            </ul>
+</body>
+</html>
