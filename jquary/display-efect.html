@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquary.js">
+    </script>
+    <style>
+        h2{
+            display: none;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            // hide data
+            $('#one').click(function(){
+                $('p').hide(3000);
+            })
+
+
+            // show data
+
+            $('#show').click(function(){
+                $('h2').show(2000);
+            })
+
+            // toggle
+
+            $('#toggle').click(function(){
+                $('h1').toggle(2000);
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="one">hide me!</button>
+    <p>this is para</p>
+    <p>good morning</p>
+
+    <br>
+    <button id="show">show me!</button>
+    <h2>please show me!</h2>
+
+    <br>
+    <button id="toggle">hide/show me!</button>
+    <h1>hide & show me!</h1>
+</body>
+</html>

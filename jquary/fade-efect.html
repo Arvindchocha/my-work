@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquary.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#out').click(function(){
+                $('h1').fadeOut(3000);
+            })
+
+            $('#in').click(function(){
+                $('h2').fadeIn(3000);
+            })
+
+
+            $('#toggle').click(function(){
+                $('h3').fadeToggle(3000);
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="out">fade out!</button>
+    <h1>good morning!</h1>
+    <button id="in">fade in</button>
+    <h2 style="display: none;">fade in me!</h2>
+    <button id="toggle">fade toggle</button>
+    <h3>weclcome toggle efects</h3>
+</body>
+</html>

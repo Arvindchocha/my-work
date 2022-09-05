@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            min-height: 100vh;
+            overflow: hidden;
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(rgb(248, 90, 117),rgb(75, 186, 230));
+        }
+        .card{
+            width: 300px;
+            height: 400px;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            border-left: 1px solid rgba(255,255,255,0.5);
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .content{
+            position: absolute;
+            color: #fff;
+            transform: translateY(370px);
+            opacity: 0;
+            transition: .5s;
+        }
+        .card:hover .content{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+        .one{
+            font-size: 100px;
+            margin-bottom: 0px;
+        }
+        .content .two{
+            margin-top: -px;
+            text-align: left;
+            font-size: 20px;
+        }
+        button{
+            background: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <p class="one">01</p>
+                <p two>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo animi sit dolor enim. Reiciendis, ea itaque aperiam assumenda sunt est dolorem, hic libero neque esse beatae, minus consequuntur adipisci ut.</p>
+                <button>Lern More</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <p class="one">02</p>
+                <p two>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo animi sit dolor enim. Reiciendis, ea itaque aperiam assumenda sunt est dolorem, hic libero neque esse beatae, minus consequuntur adipisci ut.</p>
+                <button>Lern More</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

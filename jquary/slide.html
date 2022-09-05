@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquary.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#up').click(function(){
+                $('h1').slideUp(1000);
+            })
+            $('#down').click(function(){
+                $('h2').slideDown(1000);
+            })
+            $('#both').click(function(){
+                $('h3').slideToggle(1000);
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="up">slide up</button>
+    <h1>hellow</h1>
+    <button id="down">slide down</button>
+    <h2 style="display: none;">tops tec</h2>
+    <button id="both">slide up /dowon</button>
+    <h3>good morning</h3>
+</body>
+</html>

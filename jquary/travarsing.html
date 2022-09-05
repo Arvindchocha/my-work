@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquary.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $('span').parent().css({'border':'4px solid red'});
+            // $('ul').parent().css({'border':'4px solid red'});
+            // $('span').parentsUntil('ul').css({'border':'4px solid red'});
+            // $('div').children().css({'border':'4px solid red'});
+            // $('div').find('span').css({'border':'4px solid red', 'color':'green'});
+            $('span').siblings().css({'border':'4px solid red'});
+        })
+    </script>
+    <style>
+        div,ul,li{
+            border: 2px solid;
+            padding: 10px;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <ul>
+                <li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque provident ut, illo saepe corrupti facilis r</p>
+                    <span> tops tec</span>
+                    <h3>this is <h3></h3></h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

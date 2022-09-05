@@ -1,0 +1,47 @@
+?<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" onsubmit="submitdata()">
+        <table border="1" align="center">
+            <tr>
+                <td>name:</td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td>password:</td>
+                <td><input type="password" name="name" id="pass"></td>
+            </tr>
+            <tr>
+                <td>email:</td>
+                <td><input type="email" name="name" id="email"></td>
+            </tr>
+            <tr>
+                <td>phone:</td>
+                <td><input type="number" name="name" id="numbetr"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="name"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+<script>
+    function submitdata()
+    {
+        var data = document.getElementById('name').value;
+        console.log(data);
+        if(data == "")
+        {
+            alert("please enter name");
+            return false
+        }
+
+    }
+</script>

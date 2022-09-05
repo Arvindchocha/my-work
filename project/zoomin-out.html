@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: gray;
+        }
+        .main{
+            width: 100%;
+            height: 655px;
+            background: linear-gradient(rgb(77, 19, 19),rgb(68, 62, 62),rgb(196, 31, 31),#fff,rgb(71, 53, 53), rgb(219, 112, 112));
+           position: absolute;
+           opacity: .8;
+        }
+        .center{
+            width: 50%;
+            height: 600px;
+            background-color: rgb(216, 189, 189);
+            margin-left: 25%;
+            margin-top: 25px;
+            position: absolute;
+            transition: transform 1s;
+            border-radius: 30px;
+        }
+        .center:hover{
+            /* width: 61%; */
+            /* height: 604px; */
+            transform: scale(.9,.9);
+            /* margin-left: 19%; */
+            /* margin-top: 24px;  */
+        }
+        p{
+            font-size: 25px;
+            margin-left: 60px;
+            text-shadow: 3px 1px 1px gray;
+        }
+        input{
+            width: 80%;
+            height: 40px;
+            padding: 5px;
+            margin: 10px;
+            margin-left: 60px;
+            border-top: opx;
+            border-color: #091f42;
+            border-bottom: 2px solid skyblue;
+            background-color: #fff;
+            border-top-left-radius: 15px;
+            transition: background-color 3s, color 3s;
+        }
+        textarea{
+            width: 80%;
+            padding: 5px;
+            margin: 10px;
+            margin-left: 60px;
+            border: 1px soli skyblue;
+            border-bottom: 2px solid skyblue;
+            background-color: #fff;
+            border-top-left-radius: 15px;
+            transition: background-color 3s, color 3s;
+            border-color: #2874f0;
+        }
+        sup{
+            color: red;
+        }
+        .one{
+            width: 15%;
+            margin-left: 40%;
+            border-radius: 4px;
+            transition: background-color 3s, color 3s, font-size 3s;
+        }
+        .two:hover{
+            width: 82%;
+            margin-left: 50px;
+            background-color: skyblue;
+            color: red;
+        }
+        textarea:hover{
+            width: 82%;
+            margin-left: 50px;
+            background-color: skyblue;
+            color: red;
+        }
+        .one:hover{
+            width: 18%;
+            margin-left: 38%;
+            border-radius: 10%;
+            background-color: aqua;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="center">
+            <p>Name<sup>*</sup>:</p>
+            <input type="text" placeholder="Enter Name" name="name" class="two">
+            <p>Email<sup>*</sup>:</p>
+            <input type="email" placeholder="@gmail.com" name="email" class="two">
+            <p>Message<sup>*</sup>:</p>
+            <textarea name="" id="" cols="60" rows="5" placeholder="Write hear"></textarea>
+            <input type="submit" name="submit" class="one">
+        </div>
+    </div>
+</body>
+</html>

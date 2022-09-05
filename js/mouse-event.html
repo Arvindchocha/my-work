@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hover()
+        {
+            var img = document.getElementById('myimg');
+            img.src ="image/clock1.jpg";
+        }
+        function out()
+        {
+            var img = document.getElementById('myimg');
+            img.src = "image/cart.jpg";
+        }
+    </script>
+</head>
+<body>
+    <img src="image/cart.jpg" alt="" id="myimg" onmouseover="hover()" onmouseout="out()">
+</body>
+</html>

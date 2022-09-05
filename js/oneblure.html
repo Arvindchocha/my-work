@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function data()
+        {
+            var a = document.getElementById('text');
+            a.value = a.value.toupperCase();
+        }
+    </script>
+</head>
+<body>
+    <!-- <input type="text" id="text" onblur="data()"> -->
+    <!-- <input type="text" id="text" onkeydown="data()"> -->
+    <!-- <input type="text" id="text" onkeypress="data()"> -->
+    <input type="text" id="text" onkeyup="data()">
+</body>
+</html>

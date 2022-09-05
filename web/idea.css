@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    background-color: #fff;
+}
+.nave{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-sizing: initial;
+    border-left: 5px solid #4d5bf9;
+    background: #4d5bf9;
+    transition: 2s;
+    overflow: hidden;
+}
+.nave.active{
+    width: 70px;
+}
+.nave ul{
+    position: absolute;
+    top: 0;
+    left: o;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+.nave ul li b:nth-child(1){
+    position: absolute;
+    top: -20px;
+    height: 20px;
+    width: 100%;
+    display: none;
+    background: #fff;
+}
+.nave ul li b:nth-child(1)::before{
+    content: '';
+    position: absolute;
+    top: o;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    background: #4d5bf9;
+}
+.nave ul li b:nth-child(2){
+    position: absolute;
+    top: 60px;
+    height: 20px;
+    width: 100%;
+    background: #fff;
+    display: none;
+}
+.nave ul li b:nth-child(2)::before{
+    content: '';
+    position: absolute;
+    top: o;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    background: #4d5bf9;
+}
+.nave ul li.active b:nth-child(1),
+.nave ul li.active b:nth-child(2){
+    display: block;
+}
+.nave ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.nave ul li.active{
+    background: #fff;
+}
+.nave ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.nave ul li.active a{
+    color: #333;
+}
+.nave ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 70px;
+}
+.nave ul li a .icon ion-icon{
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+.nave ul li a .titale{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+}
+.toggle{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #ff4d89;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+.toggle.active{
+    background: #4d5bf9;
+}
+.toggle  ion-icon{
+    position: absolute;
+    color: #fff;
+    font-size: 34px;
+}
+.toggle  ion-icon.open,
+.toggle.active ion-icon.close{
+    display: none;
+}
+.toggle.active  ion-icon.open,
+.toggle ion-icon.close{
+    display: block;
+}
+.Logo{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    overflow: hidden;
+}
+.Logo img{
+    margin-left: 45%;
+    margin-top: -4%;
+}
+.image{
+    position: fixed;
+    top: 200px;
+    right: 200px;
+    width: 300px;
+    height: 300px;
+    background: #ff4d89;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/image/image_files/279120468_132146272731982_3379055561341335969_n.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0% 58% 0% 50% / 100% 55% 53% 48% ;
+    box-shadow: 5px 5px 5px #fff;
+}
+.image img{
+    border-radius: 0% 58% 0% 50% / 100% 55% 53% 48% ;
+    margin-top: 80%;
+    margin-left: 80%;
+    box-shadow:inset 5px 5px 5px #fff;
+}
+.back{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 400px;
+    height: 100vh;
+    background: #1b1719;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:inset 10px 0px 5px #fff;
+}

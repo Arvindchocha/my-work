@@ -1,0 +1,34 @@
+{
+    "name": "EasyZoom",
+    "title": "EasyZoom",
+    "description": "jQuery plugin for image zoom support.",
+    "keywords": [
+        "image",
+        "zoom"
+    ],
+    "version": "1.0.6",
+    "author": {
+        "name": "Marvin Elia Hoppe",
+        "url": "https://github.com/marvinGitHub/EasyZoom/blob/master/AUTHORS.txt"
+    },
+    "maintainers": [
+        {
+            "name": "Marvin Elia Hoppe",
+            "email": "marvin_elia@web.de",
+            "url": ""
+        }
+    ],
+    "licenses": [
+        {
+            "type": "Creative Commons Share A Like 3.0",
+            "url": "http://creativecommons.org/licenses/by-sa/3.0/de/"
+        }
+    ],
+    "bugs": "",
+    "homepage": "",
+    "docs": "",
+    "download": "https://github.com/marvinGitHub/EasyZoom",
+    "dependencies": {
+        "jquery": ">=1.7"
+    }
+}

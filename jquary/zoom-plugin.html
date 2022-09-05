@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            
+            // activate the jQuery plugin
+            $("div.zoom").easyZoom({
+                selector: {
+                    preview: "#preview-zoom",
+                    window: "#window-zoom"	        			
+                }		
+            });	
+        });
+        </script>
+
+
+<style type="text/css">
+    #site-wrapper {
+    font-family: sans-serif;
+    margin: auto;
+    width: 800px;
+    color: #333333;
+    }
+    #demo {
+    width: 400px;
+    }
+    a.no-underline {
+    text-decoration: none;
+    }
+    a, a:visited, a:hover, a:active {
+    color: #4C91C0;
+    }
+    a:hover {
+    text-decoration: underline;
+    }
+    </style>
+
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="jquery-script-menu">
+        <div class="jquery-script-center">
+        <ul>
+        <li><a href="http://www.jqueryscript.net/zoom/Basic-lightweight-jQuery-Image-Zoom-Plugin-Easy-Zoom.html">Download This Plugin</a></li>
+        <li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+        </ul>
+
+        <div id="demo" class="zoom" data-image="public/static/img/demo.jpg"> <img src="public/static/img/demo-resized.jpg">
+            <div id="preview-zoom"></div>
+            </div>
+            <div id="container-zoom">
+            <div id="window-zoom" style="display:none;"></div>
+            </div>
+
+
+
+
+
+
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36251023-1']);
+            _gaq.push(['_setDomainName', 'jqueryscript.net']);
+            _gaq.push(['_trackPageview']);
+          
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+          
+</body>
+</html>
