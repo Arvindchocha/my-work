@@ -1,0 +1,270 @@
+.main{
+    width: 100%;
+    background-color: lightgray;
+    height: 2000px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    background-color: #0070ff;
+    height: 63px;
+    background-attachment: fixed;
+    margin-top: -16px;
+}
+.login{
+    display: none;
+}
+.login a{
+    display: block;
+    text-decoration: none;
+}
+.header:hover .login{
+    display: block;
+}
+.header:hover .log{
+    color: black;
+}
+.log:hover .login{
+    display: block;
+}
+.a{
+    float: left;
+    padding-left: 190px;
+    margin-top: 15px;
+    background-attachment: fixed;
+}
+.header input{
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    width: 410px;
+    margin: 10px;
+    background-attachment: fixed;
+}
+button{
+    width: 110px;
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    color: #0070ff;
+    border-color: #0070ff;
+}
+li{
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Helvetica;
+}
+.product{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+.left img{
+    float: left;
+    width: 5%;
+    margin-left: 40px;
+    padding: 15px;
+    margin-top: -5px;
+}
+.left p{
+    float: left;
+    margin-top: 75px;
+    margin-left: -75px;
+}
+.center{
+    width: 100%;
+    float: left;
+}
+.center img{
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.middle{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.middle #left{
+    float: left;
+    width: 80%;
+    height: 350px;
+    background-color: #ffffff;
+    margin-left: 1%;
+}
+.middle #right{
+    float: left;
+    width: 17%;
+    height: 350px;
+    background-color: #ffffff;
+    margin-left: 1%;
+}
+#left h2{
+    float: left;
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+#left img{
+    float: left;
+    margin-top: 15px;
+}
+#left time{
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#left button{
+    float: left;
+    background-color: #0070ff;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-left: 55%;
+}
+hr{
+    float: left;
+    /* padding-top: 20px; */
+    width: 100%;
+    color: lightgray;
+}
+.offer img{
+    /* width: 15%; */
+    /* height: 15%; */
+    float: left;
+    margin-top: -20pxpx;
+    margin-left: 20px;
+    padding: 20px;
+}
+.offer p{
+    float: left;
+    margin-top: 190px;
+    width: 15%;
+    margin-left: -150px;
+    text-align: center;
+}
+.out{
+    float: left;
+    width: 98%;
+    height: 60px;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-left: 1%;
+}
+.out h2{
+    margin-left: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.out button{
+    float: left;
+    background-color: #0070ff;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 1000px;   
+}
+.offer2{
+    float: left;
+    width: 98%;
+    height: 280px;
+    background-color: #ffffff;
+    margin-top: 1px;
+    margin-left: 1%;
+}
+.item img{
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 15px;
+}
+.item p{
+    float: left;
+    padding-top: 190px;
+    margin-left: -155px;
+    text-align: center;
+}
+.in{
+    float: left;
+    width: 98%;
+    height: 60px;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-left: 1%;
+}
+.in h2{
+    margin-left: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.in button{
+    float: left;
+    background-color: #0070ff;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 1000px;   
+}
+.menu{
+    float: left;
+    width: 98%;
+    height: 280px;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-left: 1%;
+}
+.footer{
+    width: 100%;
+    float: left;
+    height: 500px;
+    background-color: #052753;
+    margin-top: 10px;
+}
+.td td{
+    color: gray;
+    padding: 10px;
+}
+table td{
+    color: #ffffff;
+    padding: 5px;
+}
+table{
+    margin: 40px;
+    float: left;
+    width: 45%;
+    font-size: 15px;
+}
+.text{
+    width: 25%;
+    float: left;
+    margin-top: 50px;
+    padding: 10px;
+}
+.number{
+    width: 20%;
+    float: left;
+    margin-top: 50px;
+    padding: 10px;
+}
+.text p,
+.number p{
+    color: #ffffff;
+}
+h4{
+    color: gray;
+}

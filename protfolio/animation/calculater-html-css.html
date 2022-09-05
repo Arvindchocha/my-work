@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to ,rgb(236, 223, 223),black);
+            font-family: sans-serif;
+        }
+       
+        h1{
+            position: relative;
+            text-align: center;
+            padding: 23px;
+            z-index: 10;
+        }
+       
+        #calc{
+            z-index: 10;
+            width: 300px;
+            border: 2px solid rgba(0.0.0.0.5);
+            padding: 20px;
+            /* background: rgba(255, 255, 255, .005); */
+            margin-top: 10px;
+            text-align: right;
+            position: relative;
+            background: #fff;
+        }
+
+        form{
+            /* background: rgba(255, 255, 255, .005); */
+            background: rgb(46, 46, 46);
+            position: relative;
+            width: 360px;
+            height: 470px;
+            margin: auto;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 5px 5px 20px rgba(235, 9, 9, 0.2);
+            border-radius: 20px;
+        }
+
+        input{
+            color: #fff;
+            width: 60px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 5px 5px 5px rgba(233, 227, 227, 0.2);
+            border-radius: 5px;
+            padding: 23px;
+            margin: 5px;
+            font-size: 15px;
+            background: transparent;
+            position: relative;
+            transition: 0.3s ease-in-out;
+            background: skyblue;
+        }
+        input:hover{
+            transform: scale(1.1);
+        }
+        .clear{
+            position: relative;
+            width: 100px;
+            color: antiquewhite;
+            background: tomato;
+        }
+        .plush{
+            color: black;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculator Program in Javascript</h1>
+   
+    </div>
+    <div class="calcstyle">
+        <form action="" name="form1">
+            <input type="text" id="calc" name="answer">
+
+
+            <input type="button" value="1" onclick="form1.answer.value += '1' ">
+            <input type="button" value="2" onclick="form1.answer.value += '2' ">
+            <input type="button" value="3" onclick="form1.answer.value += '3' ">
+            <input type="button" class="plush" value="+" onclick="form1.answer.value += '+' ">
+
+
+            <input type="button" value="4" onclick="form1.answer.value += '4' ">
+            <input type="button" value="5" onclick="form1.answer.value += '5' ">
+            <input type="button" value="6" onclick="form1.answer.value += '6' ">
+            <input type="button" class="plush" value="-" onclick="form1.answer.value += '-' ">
+
+
+            <input type="button" value="7" onclick="form1.answer.value += '7' ">
+            <input type="button" value="8" onclick="form1.answer.value += '8' ">
+            <input type="button" value="9" onclick="form1.answer.value += '9' ">
+            <input type="button" class="plush" value="*" onclick="form1.answer.value += '*' ">
+
+
+            <input type="button" value="/" onclick="form1.answer.value += '/' ">
+            <input type="button" value="0" onclick="form1.answer.value += '0' ">
+            <input type="button" value="." onclick="form1.answer.value += '.' ">
+
+
+            <input type="button" value="=" class="plush" onclick="form1.answer.value = eval(form1.answer.value) ">
+
+            <input type="button" class="clear" value="clear" onclick="form1.answer.value = '' ">
+        </form>
+    </div>
+</body>
+</html>
